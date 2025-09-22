@@ -7,7 +7,7 @@ import javax.swing.*;
 import java.awt.event.ItemEvent;
 import java.awt.event.ItemListener;
 
-public class ComboBoxDemo {// test change
+public class ComboBoxDemo { // test change
 
     public static void main(String[] args) {
         SwingUtilities.invokeLater(() -> {
