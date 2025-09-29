@@ -63,7 +63,7 @@ public class CountryCodeConverter {
     public String fromCountryCode(String code) {
         if (code == null)
             return null;
-        return countryCodeToCountry.get(code);
+        return countryCodeToCountry.get(code.toUpperCase());
     }
 
     /**
