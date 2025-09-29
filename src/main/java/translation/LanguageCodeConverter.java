@@ -76,12 +76,9 @@ public class LanguageCodeConverter {
      * @param code the 2-letter language code
      * @return the name of the language corresponding to the code
      */
-    public String fromLanguageCode(String code) {
-        if (code == null) {
-            return null;
-        }
-
-        return languageCodeToLanguage.get(code);
+   public String fromLanguageCode(String code) {
+        if (code == null) return null;
+        return languageCodeToLanguage.get(code.trim().toLowerCase());
     }
 
     /**
