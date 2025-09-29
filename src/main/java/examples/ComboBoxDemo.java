@@ -1,7 +1,7 @@
 package examples;
 
 import translation.CanadaTranslator;
-import translation.Translator;
+import translation.Translator; 
 
 import javax.swing.*;
 import java.awt.event.ItemEvent;
